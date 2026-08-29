@@ -1,0 +1,26 @@
+# ── 公開しないもの ────────────────────────────────
+# 参照音声とその書き起こしは個人の声・素材なので絶対にコミットしない。
+# reference/README.md だけは置き方の説明として追跡する。
+reference/*
+!reference/README.md
+
+# 生成した音声も公開しない
+output/
+
+# ── 環境・生成物 ──────────────────────────────────
+.venv/
+python-base/
+*.log
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS / エディタ
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
