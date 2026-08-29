@@ -1,0 +1,5 @@
+# リポジトリ内は LF に正規化する
+* text=auto eol=lf
+
+# PowerShell スクリプトは Windows で扱うため CRLF で取り出す
+*.ps1 text eol=crlf
